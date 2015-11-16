@@ -32,7 +32,6 @@
 # network/rpc/keyserv.xml
 # network/socket-filter-kssl.xml
 # network/ssl/kssl-proxy.xml
-# network/nfs/rquota.xml
 # network/dns/server.xml
 # network/ftp.xml
 # network/finger.xml
@@ -52,9 +51,6 @@
 # network/security/krb5kdc.xml
 # network/security/ktkt_warn.xml
 # network/rpc/smserver.xml
-# network/nfs/cbd.xml
-# network/nfs/mapid.xml
-# network/nfs/status.xml
 # network/ipmievd.xml
 # network/nis/client.xml
 # network/rpc/rex.xml
@@ -72,8 +68,6 @@
 # If we ever do want to run any of these, move the entry to the end and
 # uncomment it out.
 #
-# network/nfs/client.xml
-# network/nfs/nlockmgr.xml
 # system/boot-archive-update.xml
 # system/boot-archive.xml
 # system/boot-config.xml
@@ -121,6 +115,12 @@ network/network-netmask.xml	enabled
 network/network-physical.xml	enabled
 network/network-routing-setup.xml	enabled
 network/network-service.xml	enabled
+network/nfs/cbd.xml		disabled
+network/nfs/client.xml		disabled
+network/nfs/rquota.xml		disabled
+network/nfs/mapid.xml		disabled
+network/nfs/nlockmgr.xml	disabled
+network/nfs/status.xml		disabled
 network/rexec.xml		disabled
 network/routing/legacy-routing.xml	enabled
 network/routing/ndp.xml		disabled
